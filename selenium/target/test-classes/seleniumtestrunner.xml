@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Selenium Regression Test">
+    <test name = "HomePage Tests">
+        <parameter name = "url" value = "https://demoqa.com/browser-windows"/>
+        <classes>
+            <class name = "pagestests.WindowHandleTests"/>
+        </classes>
+    </test>
+</suite>
